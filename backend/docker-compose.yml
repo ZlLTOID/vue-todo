@@ -20,5 +20,5 @@ services:
 
   nginx:
     build: ./.docker/nginx
-    ports: ['80:80']
+    ports: ['88:80']
     volumes: ['${CI_PROJECT_DIR:-.}:/var/www']
